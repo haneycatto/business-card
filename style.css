@@ -1,0 +1,37 @@
+
+/* HOW FLEXBOX WORK??
+the flexbox is in main, it divide the container of dp and main-info*/
+
+.main{
+    display: flex;
+    justify-content: center;    
+    margin: 100px;
+    margin-left: 390px;
+    margin-right: 390px;
+    padding: 20px;
+    background-color: #F6F7C4;
+    border: 3px solid #7BD3EA;
+	box-shadow: .5rem 1rem 1rem rgba(0,0,0,0.6);
+}
+
+.dp{
+    margin-right: 10px;
+    padding: 10px;
+    width: 140px;
+}
+
+.name{
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.p1{
+    margin-top: 0;
+    font-size: 13px;
+}
+
+.p2{
+    font-size: 14px;
+}
